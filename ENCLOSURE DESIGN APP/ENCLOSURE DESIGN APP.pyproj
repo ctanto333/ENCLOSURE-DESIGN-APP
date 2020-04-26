@@ -1,0 +1,96 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1e62c6b2-7618-49b8-990d-0896cd1cd434</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>ENCLOSURE DESIGN APP</Name>
+    <RootNamespace>ENCLOSURE DESIGN APP</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ENCLOSURE_DESIGN_APP.pyw" />
+    <Compile Include="FORM_3_4_WI_BC.pyw" />
+    <Compile Include="FORM_3_4_WO_BC.pyw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Autocad Block\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Autocad Block\1000A MCCB 3P.bak" />
+    <Content Include="Autocad Block\1000A MCCB 3P.dwg" />
+    <Content Include="Autocad Block\1000A MCCB 4P.bak" />
+    <Content Include="Autocad Block\1000A MCCB 4P.dwg" />
+    <Content Include="Autocad Block\1600A 3P .bak" />
+    <Content Include="Autocad Block\1600A 4P.bak" />
+    <Content Include="Autocad Block\1600A ACB 3P.bak" />
+    <Content Include="Autocad Block\1600A ACB 3P.dwg" />
+    <Content Include="Autocad Block\1600A ACB 4P.bak" />
+    <Content Include="Autocad Block\1600A ACB 4P.dwg" />
+    <Content Include="Autocad Block\1600A ACB BC 4P.bak" />
+    <Content Include="Autocad Block\1600A ACB BC 4P.dwg" />
+    <Content Include="Autocad Block\1600A ACB BC.bak" />
+    <Content Include="Autocad Block\2500A 3P.bak" />
+    <Content Include="Autocad Block\2500A 4P.bak" />
+    <Content Include="Autocad Block\2500A ACB 3P.bak" />
+    <Content Include="Autocad Block\2500A ACB 3P.dwg" />
+    <Content Include="Autocad Block\2500A ACB 4P.bak" />
+    <Content Include="Autocad Block\2500A ACB 4P.dwg" />
+    <Content Include="Autocad Block\2500A ACB BC 4P.bak" />
+    <Content Include="Autocad Block\2500A ACB BC 4P.dwg" />
+    <Content Include="Autocad Block\2500A ACB BC.bak" />
+    <Content Include="Autocad Block\2500A_4P.bak" />
+    <Content Include="Autocad Block\250A MCCB 3P.bak" />
+    <Content Include="Autocad Block\250A MCCB 3P.dwg" />
+    <Content Include="Autocad Block\250A MCCB 4P.bak" />
+    <Content Include="Autocad Block\250A MCCB 4P.dwg" />
+    <Content Include="Autocad Block\400A MCCB 3P.bak" />
+    <Content Include="Autocad Block\400A MCCB 3P.dwg" />
+    <Content Include="Autocad Block\400A MCCB 4P.bak" />
+    <Content Include="Autocad Block\400A MCCB 4P.dwg" />
+    <Content Include="Autocad Block\630A MCCB 3P.bak" />
+    <Content Include="Autocad Block\630A MCCB 3P.dwg" />
+    <Content Include="Autocad Block\630A MCCB 4P.bak" />
+    <Content Include="Autocad Block\630A MCCB 4P.dwg" />
+    <Content Include="Autocad Block\630A MCCB VER 3P.bak" />
+    <Content Include="Autocad Block\630A MCCB VER 3P.dwg" />
+    <Content Include="Autocad Block\630A MCCB VER 4P.bak" />
+    <Content Include="Autocad Block\630A MCCB VER 4P.dwg" />
+    <Content Include="Autocad Block\700W 2BLANK.bak" />
+    <Content Include="Autocad Block\700W 2BLANK.dwg" />
+    <Content Include="Autocad Block\700W 2MODULE.bak" />
+    <Content Include="Autocad Block\700W 2MODULE.dwg" />
+    <Content Include="Autocad Block\700W 3BLANK.bak" />
+    <Content Include="Autocad Block\700W 3BLANK.dwg" />
+    <Content Include="Autocad Block\700W 3MODULE.bak" />
+    <Content Include="Autocad Block\700W 3MODULE.dwg" />
+    <Content Include="Autocad Block\700W 4MODULE.bak" />
+    <Content Include="Autocad Block\700W 4MODULE.dwg" />
+    <Content Include="Autocad Block\700W CUBICLE.bak" />
+    <Content Include="Autocad Block\700W CUBICLE.dwg" />
+    <Content Include="Autocad Block\700W.bak" />
+    <Content Include="Autocad Block\Thumbs.db" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
